@@ -1,0 +1,226 @@
+body
+{
+  background-image: url("tiffinImages/my_Background2.png");
+  font-family: 'Nunito', sans-serif;
+}
+.jumbotron
+{
+  background-image: url("tiffinImages/my_Background.png");
+}
+
+
+
+
+@media (min-width: 1024px){
+  .hero {
+    height: calc(100vh - 115px);
+  }
+}
+
+.alignCenter
+{
+  margin-left: -17%;
+}
+
+.hero img {
+  width: 75%;
+}
+
+.nav-link {
+  display: inline-block;
+}
+
+.my_bgcolor
+{
+  background-color: #ED8418;
+}
+.orange_font_color
+{
+  color: #ED8418!important;
+}
+.white_text_color
+{
+  color: white!important;
+}
+a
+{
+  color: white!important;
+}
+
+.top_margin
+{
+  margin-top: 3%;
+}
+
+.bottom_margin
+{
+  margin-bottom: 3%;
+}
+.lobster_font
+{
+  font-family: 'Lobster'!important;
+}
+.top_bottom_padding
+{
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+.deals_jumbotron_banner
+{
+  background-image: url('tiffinImages/tif2.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  height: 100vh;
+  padding-top: 20%!important;
+}
+
+
+
+.no_padding
+{
+  padding:0px!important;
+}
+.light_padding
+{
+  padding: 3%!important;
+  text-align: center;
+}
+.light_padding > p
+{
+  color:#ED8418;
+}
+.shift_left
+{
+  margin: 1% 0% 1% -2%;
+}
+.shift_right
+{
+  margin: 1% -2% 1% 0%;
+  z-index: 1;
+}
+
+
+
+.btn
+{
+  border-radius: 0px!important;
+}
+
+
+
+h2
+{
+  color:#ED8418;
+  font-family: 'Lobster'!important;
+}
+.change_color > p
+{
+    color: #ED8418;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+/* The cont */
+.cont {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.cont input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.cont:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.cont input:checked ~ .checkmark {
+  background-color: #ED8418;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.cont:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.cont input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.cont .checkmark:after {
+ 	top: 9px;
+	left: 9px;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: white;
+}
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 576px) {
+
+.hide-big
+{
+  display: none;
+}
+}
+
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+.hide
+{
+  display: none;
+}
+.phone-center
+{
+  text-align: center!important;
+}
+
+}
